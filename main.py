@@ -58,15 +58,17 @@ def runCommand(command):
     firstWord = command[0]
     if firstWord == CREATE:
         create(command)
-    if firstWord == DROP:
+    elif firstWord == DROP:
         drop(command)
-    if firstWord == USE:
+    elif firstWord == USE:
         useDatabase(command)
-    if firstWord == ALTER:
+    elif firstWord == ALTER:
         alterTable(command)
-    if firstWord == SELECT:
+    elif firstWord == SELECT:
         select(command)
-    return 0
+    else:
+        return 0
+    return 1
 
 
 # create a table or database
