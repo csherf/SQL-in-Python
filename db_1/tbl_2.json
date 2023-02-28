@@ -1,0 +1,12 @@
+{
+      "currentId": 3,
+      "count": 2,
+      "a1": {
+            "type": "int",
+            "rows": []
+      },
+      "a2": {
+            "type": "varchar(20)",
+            "rows": []
+      }
+}
