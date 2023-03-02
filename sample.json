@@ -1,18 +1,21 @@
 {
-    "currentId": 3,
-    "count": 2,
-    "a1": {
+   "currentId": 1,
+   "count": 0,
+   "columns": [
+       "a1",
+       "a2",
+       "a3"
+   ],
+   "a1": {
        "type": "int",
-       "rows": {
-          "1": 0,
-          "2": 2
-       }
-    },
-    "a2": {
+       "rows": []
+   },
+   "a2": {
        "type": "varchar(20)",
-       "rows": {
-        "1": "",
-        "2": ""
-       }
-    }
- }
+       "rows": []
+   },
+   "a3": {
+       "type": "float",
+       "rows": []
+   }
+}
